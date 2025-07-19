@@ -85,7 +85,7 @@ async function getAuthCode() {
   console.log("Authorize URL:", authorizeURL);
 
   const code = extractCode(
-    await rl.question("Please enter the authorization code from the URL: ")
+    await rl.question("Please copy and paste the URL you were redirected to: ")
   );
 
   const tokenResponse = await fetch("https://accounts.spotify.com/api/token", {
