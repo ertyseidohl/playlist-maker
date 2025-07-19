@@ -4,6 +4,8 @@ Make a spotify playlist from the tracks you played during a specific time range
 
 ## How to Run
 
+Set up a [Spotify Developer application](https://developer.spotify.com/documentation/web-api/tutorials/getting-started#create-an-app).
+
 Install:
 
 ```bash
@@ -14,7 +16,7 @@ npm install
 
 Next, set up .env with your Spotify API secrets.
 
-Note: `REDIRECT_URI` does not need to actually have a server running, you'll just need to copy the URL that Spotify forwards you to later.
+Note: `REDIRECT_URI` does not need to actually have a server running, you'll just need to copy the URL that Spotify forwards you to later. It needs to match the Redirect URI that you set when creating the app in Spotify Developer.
 
 Run:
 
